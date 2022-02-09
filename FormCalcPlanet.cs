@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CalculadoraPlanetaria
 {
-    public partial class Form1 : Form
+    public partial class FormCalcPlanet : Form
     {
-        public Form1()
+        public FormCalcPlanet()
         {
             InitializeComponent();
             cbxPlaneta.SelectedIndex = 2;

@@ -1,7 +1,7 @@
 ﻿
 namespace CalculadoraPlanetaria
 {
-    partial class Form1
+    partial class FormCalcPlanet
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -91,7 +91,7 @@ namespace CalculadoraPlanetaria
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
-            // Form1
+            // FormCalcPlanet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -101,7 +101,7 @@ namespace CalculadoraPlanetaria
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbxPlaneta);
-            this.Name = "Form1";
+            this.Name = "FormCalcPlanet";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora Planetaria";
             this.ResumeLayout(false);
